@@ -29,5 +29,5 @@ In general, we created 5 models before finding the final model. The difficulty l
 Our final regression model was selected using 25 predictor variables from a total of 39 variables (original dataset) to predict IMDb scores of 12 different movies, which will be released in November. The result showed that our model is statistically significant (p<0.001, Multiple R-squared=0.5472, Adjusted R-squared=0.5241).
 
 ## Files
-Refer to [OIMDB_Code.R](IMDB_Code.R) for code in R. <br>
+Refer to [IMDB_Code.R](IMDB_Code.R) for code in R. <br>
 Refer to [IMDB_Report.pdf](IMDB_Report.pdf) for a detailed explanation of the procedures.
