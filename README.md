@@ -1,5 +1,13 @@
+Tool: R
 ## Description and Objective
-IMDb, the internet movie database, has the world’s most authorized source of information about movies, TV shows, and video games, as well as other industry professionals,including directors, actors, and producers. This project aims to predict the IMDB scores for 12 upcoming movies in Novemeber 2022 using predictive modelling.
+IMDb, the world's most reputable source for movie, TV show, and video game information, also covers industry professionals like directors, actors, and producers. This project seeks to use predictive modeling to forecast IMDb scores for 12 movies set to release in November 2022.
+
+<p align="center">
+<img src="./images/BOBA.png" width="70%" > 
+</p>
+<p align="center">
+Our hand-drawn team logo
+</p>
 
 ## Data Description
 The dataset we are going to analyze contains historical data of more than 19,000 movies, including their information about language, country, actors, etc., in a total of 39 different variables. Then, based on this dataset, our goal is to build a model which can generate the most accurate prediction of the IMDb score of any given movie.
@@ -18,4 +26,8 @@ In general, we created 5 models before finding the final model. The difficulty l
 10. In Model 6, we removed predictors with p-values over 0.7, achieving an adjusted R-squared of 0.5241. <br>
 
 ## Results
-Our final regression model was selected using 25 predictor variables from a total of 39 variables (original dataset) to predict IMDb scores of 12 different movies, which will be released in November. The result showed that our model is statistically significant (p<.001, Multiple R-squared = .5472, Adjusted R-squared = .5241).
+Our final regression model was selected using 25 predictor variables from a total of 39 variables (original dataset) to predict IMDb scores of 12 different movies, which will be released in November. The result showed that our model is statistically significant (p<0.001, Multiple R-squared=0.5472, Adjusted R-squared=0.5241).
+
+## Files
+Refer to [OIMDB_Code.R](IMDB_Code.R) for code in R. <br>
+Refer to [IMDB_Report.pdf](IMDB_Report.pdf) for a detailed explanation of the procedures.
